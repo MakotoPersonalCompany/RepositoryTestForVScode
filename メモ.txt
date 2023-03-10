@@ -1,3 +1,7 @@
 目的 > git initコマンドでリポジトリを作成する。
 
 参考サイト: https://www.sejuku.net/blog/71268
+
+(2)　リモートリポジトリを作成する。
+
+> git init --bare --share
