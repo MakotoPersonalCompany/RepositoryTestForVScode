@@ -19,5 +19,8 @@
 -mはメッセージをつけるオプション、「コミット」するときはメッセージが必須。
 
 
-(5) ローカルリポジトリの変更をリモートリポジトリに反映する。
+(5) ローカルリポジトリと結びつけるリモートリポジトリの場所を指定する。
 < 参考例 >> git remote add origin https://github.com/MakotoPersonalCompany/RepositoryTestForPython.git
+
+(6) ローカルリポジトリの変更をリモートリポジトリに反映する。
+> git push -u origin main
