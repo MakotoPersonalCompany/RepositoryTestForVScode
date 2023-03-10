@@ -1,0 +1,3 @@
+目的 > git initコマンドでリポジトリを作成する。
+
+参考サイト: https://www.sejuku.net/blog/71268
