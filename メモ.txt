@@ -1,7 +1,23 @@
-目的 > git initコマンドでリポジトリを作成する。
-
 参考サイト: https://www.sejuku.net/blog/71268
-
 (2)　リモートリポジトリを作成する。
-
 > git init --bare --share
+
+
+
+参考サイト: https://www.sejuku.net/blog/8224
+(1) ローカルリポジトリの作成
+> git init
+
+(2)フォルダ内のファイルがローカルリポジトリのインデックスとして登録されているか確認する。
+> git status
+
+(3)ローカルリポジトリに紐づけされていないファイルをインデックスに追加する。
+> git add [インデックスに追加するファイル名]
+
+(4) ローカルリポジトリにコミットする。
+> git commit -m "[コミットメッセージ]"
+-mはメッセージをつけるオプション、「コミット」するときはメッセージが必須。
+
+
+(5) ローカルリポジトリの変更をリモートリポジトリに反映する。
+< 参考例 >> git remote add origin https://github.com/MakotoPersonalCompany/RepositoryTestForPython.git
